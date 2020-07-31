@@ -17,7 +17,7 @@ var campgroundRoutes = require("./routes/campground"),
 
 // seedDB();
 
-mongoose.connect('mongodb://localhost:27017/yelp_camp', {
+mongoose.connect('mongodb+srv://myusername:mypassword123@cluster0.py52a.mongodb.net/<dbname>?retryWrites=true&w=majority', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 })
