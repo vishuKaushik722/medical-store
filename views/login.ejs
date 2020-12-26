@@ -1,0 +1,21 @@
+<%- include("./partials/header") %>
+
+
+<div class="container mb-5 mt-5" style="color: #51EAEA;">
+	<h1 class="mb-5" style="text-align: center;">
+		Log In
+	</h1>
+<form action="/login" method="POST">
+	<div class="form-group">
+		<input class="form-control" type="text" name="username" placeholder="username">
+	</div>
+	<div class="form-group">
+		<input class="form-control" type="password" name="password" placeholder="password">
+	</div>
+	<input  class="btn btn-primary btn-block" type="submit" value="Login">
+</form>
+
+</div>
+
+
+<%- include("./partials/footer") %>
